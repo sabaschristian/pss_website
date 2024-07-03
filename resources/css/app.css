@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-links {
+        @apply text-lg uppercase bg-lime-400 p-2 rounded font-medium hover:bg-lime-600 hover:text-white;
+    }
+}

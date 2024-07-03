@@ -14,19 +14,19 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     </head>
-    <body >
+    <body class="h-screen">
         <header class="p-6 shadow-lg">
             <nav class="flex justify-between items-center">
-                <a href="#" class="text-3xl"><img src="" alt="" width="50">Passionist Sisters' School</a>
+                <a href={{ route('home') }} class="text-3xl"><img src="" alt="" width="50">Passionist Sisters' School</a>
 
                 <div class="flex items-center gap-4">
-                    <a href="#" class="text-lg uppercase bg-lime-400 p-2 rounded font-medium hover:bg-lime-600 hover:text-white">Appointment</a>
-                    <a href="#" class="text-lg uppercase bg-lime-400 p-2 rounded font-medium hover:bg-lime-600 hover:text-white">Blog</a>
-                    <a href="#" class="text-lg uppercase bg-lime-400 p-2 rounded font-medium hover:bg-lime-600 hover:text-white">About</a>
+                    <a href={{ route('appointment') }} class="nav-links">Appointment</a>
+                    <a href={{ route('blog') }} class="nav-links">Blog</a>
+                    <a href={{ route('about') }} class="nav-links">About</a>
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="max-w-screen-2xl mx-auto py-4">
             {{ $slot }}
         </main>
         <footer class="p-6 relative flex items-center justify-center">
