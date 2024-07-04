@@ -48,8 +48,10 @@
                 @endguest
             </nav>
         </header>
-        <main class="max-w-screen-2xl p-8">
-            {{ $slot }}
+        <main class="max-w-screen-2xl py-20 w-full mx-auto">
+            <div class="">
+                {{ $slot }}
+            </div>
         </main>
         <footer class="p-6 relative flex items-center justify-center sticky-bottom-0 mt-auto">
                 
