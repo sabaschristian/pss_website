@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ env('APP_NAME') }}</title>
+        <title>Passionist Sisters' School - General Santos City</title>
 
         <!-- Fonts -->
         <link rel="icon" href="{{ URL('images/pss_logo.jpeg') }}" type="image/jpeg">
