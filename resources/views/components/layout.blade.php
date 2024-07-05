@@ -42,7 +42,6 @@
                     <a href="{{ route('blog') }}" class="nav-links">Blog</a>
                     <a href="{{ route('about') }}" class="nav-links">About</a>
                     <a href="{{ route('login') }}" class="btn">Login</a>
-                    <a href="{{ route('register') }}" class="btn">Register</a>
                 </div>
                 
                 @endguest
