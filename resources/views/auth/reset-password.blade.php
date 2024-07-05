@@ -16,7 +16,7 @@
             <div>
               <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
               <div class="mt-2">
-                <input id="email" name="email" type="email" autocomplete="email" class="input @error('email') ring-red-500 @enderror">
+                <input id="email" value="{{ old('email')}}" name="email" type="email" autocomplete="email" class="input @error('email') ring-red-500 @enderror">
               </div>
               @error('email')
                 <p class="text-red-500">{{ $message }}</p>
