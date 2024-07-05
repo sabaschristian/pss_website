@@ -39,6 +39,8 @@
             @error('failed')
                 <p class="text-red-500">{{ $message }}</p>
             @enderror
+
+            <p class="text-sm text-right mr-3">Don't have an account? <a href="{{ route('register') }}" class="underline decoration-lime-500 text-lime-500">Sign up here.</a></p>
       
             <div>
               <button type="submit" class="login-btn">Sign in</button>

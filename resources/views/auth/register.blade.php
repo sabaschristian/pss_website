@@ -51,6 +51,8 @@
                   <input id="password_confirmation" name="password_confirmation" type="password" autocomplete="current-password"  class="input @error('password') ring-red-500 @enderror">
                 </div>
               </div>
+
+              <p class="text-right text-sm mr-3">Already have an account? <a href="{{ route('login') }}" class="underline decoration-lime-500 text-lime-500">Sign in here.</a></p>
       
             <div>
               <button type="submit" class="login-btn">Sign up</button>
