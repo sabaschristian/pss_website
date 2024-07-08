@@ -47,7 +47,7 @@
                 @endguest
             </nav>
         </header>
-        <main class="max-w-screen-2xl p-8">
+        <main class="max-w-screen-2xl">
             {{ $slot }}
         </main>
         <footer class="p-6 relative flex items-center justify-center sticky-bottom-0 mt-auto">
@@ -56,5 +56,12 @@
                 <h3>Copyright © 2024 Passionist Sisters' School</h3>
             </div>
         </footer>
+        <script>
+            const message = document.getElementById('message');
+
+            setTimeout(() => {
+                message.remove();
+            }, 2500);
+        </script>
     </body>
 </html>
